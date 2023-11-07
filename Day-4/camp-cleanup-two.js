@@ -23,4 +23,4 @@ let result = input.reduce((acc, ele) => {
   return acc + doesFullyContain(ele);
 }, 0);
 
-console.log(result, t);
+console.log(result);
